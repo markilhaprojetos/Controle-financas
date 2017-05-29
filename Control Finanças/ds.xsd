@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds" targetNamespace="http://tempuri.org/ds.xsd" xmlns:mstns="http://tempuri.org/ds.xsd" xmlns="http://tempuri.org/ds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds" msprop:Generator_UserDSName="ds">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_ds" msprop:Generator_TableClassName="dt_dsDataTable" msprop:Generator_TableVarName="tabledt_ds" msprop:Generator_RowChangedName="dt_dsRowChanged" msprop:Generator_TablePropName="dt_ds" msprop:Generator_RowDeletingName="dt_dsRowDeleting" msprop:Generator_RowChangingName="dt_dsRowChanging" msprop:Generator_RowEvHandlerName="dt_dsRowChangeEventHandler" msprop:Generator_RowDeletedName="dt_dsRowDeleted" msprop:Generator_RowClassName="dt_dsRow" msprop:Generator_UserTableName="dt_ds" msprop:Generator_RowEvArgName="dt_dsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lancamento_mes" msprop:Generator_ColumnVarNameInTable="columnlancamento_mes" msprop:Generator_ColumnPropNameInRow="lancamento_mes" msprop:Generator_ColumnPropNameInTable="lancamento_mesColumn" msprop:Generator_UserColumnName="lancamento_mes" type="xs:string" minOccurs="0" />
+              <xs:element name="lancamento_categoria" msprop:Generator_ColumnVarNameInTable="columnlancamento_categoria" msprop:Generator_ColumnPropNameInRow="lancamento_categoria" msprop:Generator_ColumnPropNameInTable="lancamento_categoriaColumn" msprop:Generator_UserColumnName="lancamento_categoria" type="xs:string" minOccurs="0" />
+              <xs:element name="lancamento_valor" msprop:Generator_ColumnVarNameInTable="columnlancamento_valor" msprop:Generator_ColumnPropNameInRow="lancamento_valor" msprop:Generator_ColumnPropNameInTable="lancamento_valorColumn" msprop:Generator_UserColumnName="lancamento_valor" type="xs:string" minOccurs="0" />
+              <xs:element name="lancamento_data" msprop:Generator_ColumnVarNameInTable="columnlancamento_data" msprop:Generator_ColumnPropNameInRow="lancamento_data" msprop:Generator_ColumnPropNameInTable="lancamento_dataColumn" msprop:Generator_UserColumnName="lancamento_data" type="xs:string" minOccurs="0" />
+              <xs:element name="lancamento_descricao" msprop:Generator_ColumnVarNameInTable="columnlancamento_descricao" msprop:Generator_ColumnPropNameInRow="lancamento_descricao" msprop:Generator_ColumnPropNameInTable="lancamento_descricaoColumn" msprop:Generator_UserColumnName="lancamento_descricao" type="xs:string" minOccurs="0" />
+              <xs:element name="lancamento_subcategoria" msprop:Generator_ColumnVarNameInTable="columnlancamento_subcategoria" msprop:Generator_ColumnPropNameInRow="lancamento_subcategoria" msprop:Generator_ColumnPropNameInTable="lancamento_subcategoriaColumn" msprop:Generator_UserColumnName="lancamento_subcategoria" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
