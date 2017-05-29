@@ -30,20 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.dt_dsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ds = new Control_Finanças.ds();
             this.scprincipal = new System.Windows.Forms.SplitContainer();
@@ -165,9 +165,9 @@
             this.transferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cmbCadastroUsuario = new System.Windows.Forms.ToolStripMenuItem();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.btnMenuBackup = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMenuImportarExportar = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dt_dsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ds)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scprincipal)).BeginInit();
@@ -301,9 +301,9 @@
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(216)))), ((int)(((byte)(255)))));
             this.label15.Location = new System.Drawing.Point(47, 5);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(179, 21);
+            this.label15.Size = new System.Drawing.Size(169, 21);
             this.label15.TabIndex = 40;
-            this.label15.Text = "Controle de Despesas";
+            this.label15.Text = "CONTROLE PESSOAL";
             // 
             // button1
             // 
@@ -565,9 +565,9 @@
             // 
             // Data
             // 
-            dataGridViewCellStyle5.Format = "d";
-            dataGridViewCellStyle5.NullValue = null;
-            this.Data.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = null;
+            this.Data.DefaultCellStyle = dataGridViewCellStyle1;
             this.Data.HeaderText = "Data";
             this.Data.Name = "Data";
             this.Data.Width = 80;
@@ -590,9 +590,9 @@
             // 
             // ValorLA
             // 
-            dataGridViewCellStyle6.Format = "C2";
-            dataGridViewCellStyle6.NullValue = null;
-            this.ValorLA.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Format = "C2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.ValorLA.DefaultCellStyle = dataGridViewCellStyle2;
             this.ValorLA.HeaderText = "Valor";
             this.ValorLA.Name = "ValorLA";
             this.ValorLA.Width = 70;
@@ -932,9 +932,9 @@
             // 
             // dataGridViewTextBoxColumn10
             // 
-            dataGridViewCellStyle7.Format = "d";
-            dataGridViewCellStyle7.NullValue = null;
-            this.dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Format = "d";
+            dataGridViewCellStyle3.NullValue = null;
+            this.dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewTextBoxColumn10.HeaderText = "Data";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.Width = 70;
@@ -1035,9 +1035,9 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            dataGridViewCellStyle8.Format = "d";
-            dataGridViewCellStyle8.NullValue = null;
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.Format = "d";
+            dataGridViewCellStyle4.NullValue = null;
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewTextBoxColumn2.HeaderText = "Data";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.Width = 70;
@@ -1206,18 +1206,18 @@
             // 
             this.graficoSubcategoria.BorderlineColor = System.Drawing.Color.Black;
             this.graficoSubcategoria.BorderlineWidth = 5;
-            chartArea4.Name = "ChartArea1";
-            this.graficoSubcategoria.ChartAreas.Add(chartArea4);
+            chartArea1.Name = "ChartArea1";
+            this.graficoSubcategoria.ChartAreas.Add(chartArea1);
             this.graficoSubcategoria.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.graficoSubcategoria.Legends.Add(legend4);
+            legend1.Name = "Legend1";
+            this.graficoSubcategoria.Legends.Add(legend1);
             this.graficoSubcategoria.Location = new System.Drawing.Point(3, 16);
             this.graficoSubcategoria.Name = "graficoSubcategoria";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.graficoSubcategoria.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.graficoSubcategoria.Series.Add(series1);
             this.graficoSubcategoria.Size = new System.Drawing.Size(656, 226);
             this.graficoSubcategoria.TabIndex = 1;
             this.graficoSubcategoria.Text = "chart1";
@@ -1247,18 +1247,18 @@
             // 
             this.graficoDespesaCategoria.BorderlineColor = System.Drawing.Color.Black;
             this.graficoDespesaCategoria.BorderlineWidth = 5;
-            chartArea5.Name = "ChartArea1";
-            this.graficoDespesaCategoria.ChartAreas.Add(chartArea5);
+            chartArea2.Name = "ChartArea1";
+            this.graficoDespesaCategoria.ChartAreas.Add(chartArea2);
             this.graficoDespesaCategoria.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            this.graficoDespesaCategoria.Legends.Add(legend5);
+            legend2.Name = "Legend1";
+            this.graficoDespesaCategoria.Legends.Add(legend2);
             this.graficoDespesaCategoria.Location = new System.Drawing.Point(3, 16);
             this.graficoDespesaCategoria.Name = "graficoDespesaCategoria";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.graficoDespesaCategoria.Series.Add(series5);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.graficoDespesaCategoria.Series.Add(series2);
             this.graficoDespesaCategoria.Size = new System.Drawing.Size(656, 226);
             this.graficoDespesaCategoria.TabIndex = 1;
             this.graficoDespesaCategoria.Text = "chart1";
@@ -1289,17 +1289,17 @@
             // 
             this.graficoBarras.BorderlineColor = System.Drawing.Color.Black;
             this.graficoBarras.BorderlineWidth = 5;
-            chartArea6.Name = "ChartArea1";
-            this.graficoBarras.ChartAreas.Add(chartArea6);
+            chartArea3.Name = "ChartArea1";
+            this.graficoBarras.ChartAreas.Add(chartArea3);
             this.graficoBarras.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Name = "Legend1";
-            this.graficoBarras.Legends.Add(legend6);
+            legend3.Name = "Legend1";
+            this.graficoBarras.Legends.Add(legend3);
             this.graficoBarras.Location = new System.Drawing.Point(3, 16);
             this.graficoBarras.Name = "graficoBarras";
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.Name = "Series1";
-            this.graficoBarras.Series.Add(series6);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.graficoBarras.Series.Add(series3);
             this.graficoBarras.Size = new System.Drawing.Size(1330, 247);
             this.graficoBarras.TabIndex = 2;
             this.graficoBarras.Text = "chart1";
@@ -1395,9 +1395,9 @@
             this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource2.Name = "dsds";
-            reportDataSource2.Value = this.dt_dsBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            reportDataSource1.Name = "dsds";
+            reportDataSource1.Value = this.dt_dsBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "Control_Finanças.rpds.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(14, 74);
             this.reportViewer1.Name = "reportViewer1";
@@ -1503,14 +1503,14 @@
             // cadastroToolStripMenuItem
             // 
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // transferênciaToolStripMenuItem
             // 
             this.transferênciaToolStripMenuItem.Name = "transferênciaToolStripMenuItem";
-            this.transferênciaToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.transferênciaToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.transferênciaToolStripMenuItem.Text = "Transferência";
             this.transferênciaToolStripMenuItem.Click += new System.EventHandler(this.transferênciaToolStripMenuItem_Click);
             // 
