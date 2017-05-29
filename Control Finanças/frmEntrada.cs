@@ -166,13 +166,19 @@ namespace Control_Finanças
 
         private void carregarUsuario()
         {
-            cmbUsuario.Items.Clear();
-            string sql = " SELECT usuario_nome  FROM tblusuario ORDER BY usuario_nome";
-            DataTable dt = bicComponentes.Registros(Properties.Settings.Default.BancoIp, Properties.Settings.Default.BancoPorta, "postgres", "postgres", cmbNomeBanco.Text, sql);
-
-            foreach (DataRow dr in dt.Rows)
+            try
             {
-                cmbUsuario.Items.Add(dr["usuario_nome"].ToString());
+                cmbUsuario.Items.Clear();
+                string sql = " SELECT usuario_nome  FROM tblusuario ORDER BY usuario_nome";
+                DataTable dt = bicComponentes.Registros(Properties.Settings.Default.BancoIp, Properties.Settings.Default.BancoPorta, "postgres", "postgres", cmbNomeBanco.Text, sql);
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    cmbUsuario.Items.Add(dr["usuario_nome"].ToString());
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
         private void cmbNomeBanco_SelectedIndexChanged(object sender, EventArgs e)
