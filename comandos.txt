@@ -1,7 +1,15 @@
-git add.
-git commit -m "msg"
+git init
+git config --global user.name "nomeusuario"
+git config --global user.email "email"
+git stauts
+git add .
+git commit -m "Projeto iniciado"
+git log --oneline
 
 
+git remote add origin <uri do repositorio remoto>
+git remoto set-url origin <uri do repositorio remoto>
+git push -u origin master
+git push
 
-git status
-gitlog
+git pull origin master

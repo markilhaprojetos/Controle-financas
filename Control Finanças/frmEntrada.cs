@@ -25,8 +25,7 @@ namespace Control_Finanças
             cmbNomeBanco.Items.Clear();
             txtIp.Text = Properties.Settings.Default.BancoIp;
             txtPorta.Text = Properties.Settings.Default.BancoPorta;
-            //cmbNomeBanco.Text = Properties.Settings.Default.BancoNome;
-            carregarUsuario();
+            
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
